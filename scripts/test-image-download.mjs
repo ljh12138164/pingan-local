@@ -1,0 +1,13 @@
+import {build} from 'esbuild';
+import assert from 'node:assert/strict';
+await build({entryPoints:['src/api.ts'],outfile:'work/image-api-test.mjs',bundle:true,platform:'node',format:'esm',plugins:[{name:'native-test-adapter',setup(b){b.onResolve({filter:/^@tauri-apps\//},a=>({path:a.path,namespace:'native-test'}));b.onLoad({filter:/.*/,namespace:'native-test'},()=>({contents:'export const invoke=(...args)=>globalThis.testInvoke(...args);export const save=(...args)=>globalThis.testSave(...args);export const open=async()=>null;'}));}}]});
+globalThis.window={__TAURI_INTERNALS__:{}};
+let calls=[];let fail=false;let path=null;
+globalThis.testSave=async()=>path;
+globalThis.testInvoke=async(_,args)=>{calls.push(args.input);if(fail&&!args.input.abort)throw Error('disk full');return {saved:true};};
+const {downloadImageExport}=await import('../work/image-api-test.mjs');
+const bytes=new Uint8Array(2*1024*1024+17);bytes.set([80,75,3,4]);
+assert.equal(await downloadImageExport('image.zip',bytes,'zip'),false);assert.equal(calls.length,0);
+path='test.zip';fail=true;await assert.rejects(downloadImageExport('image.zip',bytes,'zip'),/disk full/);assert.equal(calls.at(-1).abort,true);
+calls=[];fail=false;assert.equal(await downloadImageExport('image.zip',bytes,'zip'),true);assert.deepEqual(calls.map(c=>c.offset),[0,1048576,2097152]);assert.ok(calls.every(c=>c.bytes.length<=1048576));assert.equal(new Set(calls.map(c=>c.token)).size,1);assert.deepEqual(new Uint8Array(calls.flatMap(c=>c.bytes)),bytes);
+console.log('PASS: native cancellation writes nothing, failed write aborts partial file, retry uses bounded ordered chunks and preserves exact bytes.');

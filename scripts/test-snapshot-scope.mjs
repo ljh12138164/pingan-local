@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {build} from 'esbuild';
+await build({entryPoints:['src/snapshotScope.ts'],outfile:'work/snapshot-scope-test.mjs',bundle:true,platform:'node',format:'esm'});
+const {setSnapshotScope,snapshotInput}=await import('../work/snapshot-scope-test.mjs');
+const input={id:'role-a',request:{speed:1}};assert.equal(snapshotInput('save_document',input),input);
+setSnapshotScope({profileId:'role-a',snapshotId:'saved-1'});
+const scoped=snapshotInput('optimize',input);assert.equal(scoped.viewSnapshot.snapshotId,'saved-1');assert.equal(input.viewSnapshot,undefined);
+for(const op of ['save_document','refresh_runtime','read_emulator','save_settings','evaluate_scroll_monitors','restore_snapshot'])assert.throws(()=>snapshotInput(op,input),/只读/);
+assert.equal(snapshotInput('select_profile',{id:'role-b'}).viewSnapshot.profileId,'role-a');assert.ok(snapshotInput('write_workbook',{bytes:[80,75]}));
+assert.equal(snapshotInput('activity_put',input),input);
+assert.equal(snapshotInput('association_preview',input).viewSnapshot.snapshotId,'saved-1');
+setSnapshotScope(null);assert.equal(snapshotInput('save_document',input),input);
+console.log('PASS: historical transport scope propagates through reads and exports, blocks writes, resets without mutating inputs.');

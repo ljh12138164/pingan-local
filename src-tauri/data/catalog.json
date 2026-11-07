@@ -1,0 +1,3279 @@
+{
+  "source": "https://cbg-yys.res.netease.com/js/game_auto_config.js",
+  "sets": [
+    {
+      "id": "300032",
+      "name": "珍珠",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300033",
+      "name": "骰子鬼",
+      "twoPiece": {
+        "resist": 15.0
+      }
+    },
+    {
+      "id": "300034",
+      "name": "蚌精",
+      "twoPiece": {
+        "hit": 15.0
+      }
+    },
+    {
+      "id": "300035",
+      "name": "魅妖",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300036",
+      "name": "针女",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300039",
+      "name": "返魂香",
+      "twoPiece": {
+        "resist": 15.0
+      }
+    },
+    {
+      "id": "300048",
+      "name": "狂骨",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300049",
+      "name": "幽谷响",
+      "twoPiece": {
+        "resist": 15.0
+      }
+    },
+    {
+      "id": "300050",
+      "name": "土蜘蛛",
+      "twoPiece": {}
+    },
+    {
+      "id": "300051",
+      "name": "胧车",
+      "twoPiece": {}
+    },
+    {
+      "id": "300052",
+      "name": "荒骷髅",
+      "twoPiece": {}
+    },
+    {
+      "id": "300053",
+      "name": "地震鲶",
+      "twoPiece": {}
+    },
+    {
+      "id": "300054",
+      "name": "蜃气楼",
+      "twoPiece": {}
+    },
+    {
+      "id": "300055",
+      "name": "片叶之苇",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300056",
+      "name": "尘冢",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300057",
+      "name": "油赤子",
+      "twoPiece": {
+        "hit": 15.0
+      }
+    },
+    {
+      "id": "300058",
+      "name": "夜啼石",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300059",
+      "name": "夜送犬",
+      "twoPiece": {
+        "resist": 15.0
+      }
+    },
+    {
+      "id": "300060",
+      "name": "雨降",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300073",
+      "name": "飞缘魔",
+      "twoPiece": {
+        "hit": 15.0
+      }
+    },
+    {
+      "id": "300074",
+      "name": "兵主部",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300075",
+      "name": "青女房",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300076",
+      "name": "涂佛",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300077",
+      "name": "鬼灵歌伎",
+      "twoPiece": {}
+    },
+    {
+      "id": "300079",
+      "name": "遗念火",
+      "twoPiece": {
+        "hit": 15.0
+      }
+    },
+    {
+      "id": "300080",
+      "name": "共潜",
+      "twoPiece": {
+        "resist": 15.0
+      }
+    },
+    {
+      "id": "300081",
+      "name": "恶楼",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300082",
+      "name": "贝吹坊",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300083",
+      "name": "海月火玉",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300084",
+      "name": "出世螺",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300085",
+      "name": "火之车",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300086",
+      "name": "隐念",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300087",
+      "name": "叠叩",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300088",
+      "name": "应声虫",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300089",
+      "name": "元兴寺",
+      "twoPiece": {
+        "hit": 15.0
+      }
+    },
+    {
+      "id": "300090",
+      "name": "钓瓶火",
+      "twoPiece": {
+        "resist": 15.0
+      }
+    },
+    {
+      "id": "300091",
+      "name": "夜荒魂",
+      "twoPiece": {}
+    },
+    {
+      "id": "300092",
+      "name": "无刀取",
+      "twoPiece": {}
+    },
+    {
+      "id": "300093",
+      "name": "奉海图",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300094",
+      "name": "八咫镜",
+      "twoPiece": {}
+    },
+    {
+      "id": "300095",
+      "name": "天羽羽斩",
+      "twoPiece": {}
+    },
+    {
+      "id": "300096",
+      "name": "预言星盘",
+      "twoPiece": {}
+    },
+    {
+      "id": "300097",
+      "name": "月之石",
+      "twoPiece": {}
+    },
+    {
+      "id": "300098",
+      "name": "纺缘锤",
+      "twoPiece": {}
+    },
+    {
+      "id": "300099",
+      "name": "稻荷穗箭",
+      "twoPiece": {}
+    },
+    {
+      "id": "300002",
+      "name": "雪幽魂",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300003",
+      "name": "地藏像",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300004",
+      "name": "蝠翼",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300006",
+      "name": "涅槃之火",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300007",
+      "name": "三味",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300008",
+      "name": "魍魉之匣",
+      "twoPiece": {
+        "resist": 15.0
+      }
+    },
+    {
+      "id": "300009",
+      "name": "被服",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300010",
+      "name": "招财猫",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300011",
+      "name": "反枕",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300012",
+      "name": "轮入道",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300013",
+      "name": "日女巳时",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300014",
+      "name": "镜姬",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300015",
+      "name": "钟灵",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300018",
+      "name": "狰",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300019",
+      "name": "火灵",
+      "twoPiece": {
+        "hit": 15.0
+      }
+    },
+    {
+      "id": "300020",
+      "name": "鸣屋",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300021",
+      "name": "薙魂",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300022",
+      "name": "心眼",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300023",
+      "name": "木魅",
+      "twoPiece": {
+        "defense_pct": 30.0
+      }
+    },
+    {
+      "id": "300024",
+      "name": "树妖",
+      "twoPiece": {
+        "hp_pct": 15.0
+      }
+    },
+    {
+      "id": "300026",
+      "name": "网切",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300027",
+      "name": "阴摩罗",
+      "twoPiece": {
+        "attack_pct": 15.0
+      }
+    },
+    {
+      "id": "300029",
+      "name": "伤魂鸟",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300030",
+      "name": "破势",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    },
+    {
+      "id": "300031",
+      "name": "镇墓兽",
+      "twoPiece": {
+        "crit": 15.0
+      }
+    }
+  ],
+  "heroes": [
+    {
+      "id": "200",
+      "name": "桃花妖",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "201",
+      "name": "雪女",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "202",
+      "name": "三尾狐",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "203",
+      "name": "灯笼鬼",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "205",
+      "name": "座敷童子",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "206",
+      "name": "鲤鱼精",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "207",
+      "name": "九命猫",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "208",
+      "name": "狸猫",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "209",
+      "name": "河童",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "210",
+      "name": "鬼使白",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "211",
+      "name": "鬼使黑",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "212",
+      "name": "童男",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "213",
+      "name": "童女",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "214",
+      "name": "饿鬼",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "215",
+      "name": "孟婆",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "216",
+      "name": "巫蛊师",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "217",
+      "name": "大天狗",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "218",
+      "name": "鸦天狗",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "219",
+      "name": "酒吞童子",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "220",
+      "name": "犬神",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "221",
+      "name": "食发鬼",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "222",
+      "name": "武士之灵",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "223",
+      "name": "骨女",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "224",
+      "name": "雨女",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "225",
+      "name": "跳跳弟弟",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "226",
+      "name": "跳跳妹妹",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "227",
+      "name": "兵俑",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "228",
+      "name": "丑时之女",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "230",
+      "name": "独眼小僧",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "231",
+      "name": "鬼女红叶",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "232",
+      "name": "铁鼠",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "233",
+      "name": "跳跳哥哥",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "234",
+      "name": "椒图",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "236",
+      "name": "管狐",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "237",
+      "name": "山兔",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "238",
+      "name": "萤草",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "241",
+      "name": "蝴蝶精",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "242",
+      "name": "傀儡师",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "243",
+      "name": "山童",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "244",
+      "name": "首无",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "245",
+      "name": "提灯小僧",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "246",
+      "name": "赤舌",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "247",
+      "name": "海坊主",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "248",
+      "name": "荒川之主",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "249",
+      "name": "觉",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "250",
+      "name": "青蛙瓷器",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "251",
+      "name": "判官",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "252",
+      "name": "凤凰火",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "253",
+      "name": "吸血姬",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "254",
+      "name": "妖狐",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "255",
+      "name": "阎魔",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "256",
+      "name": "妖琴师",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "257",
+      "name": "食梦貘",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "258",
+      "name": "两面佛",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "259",
+      "name": "小鹿男",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "260",
+      "name": "清姬",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "261",
+      "name": "镰鼬",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "262",
+      "name": "姑获鸟",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "263",
+      "name": "二口女",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "264",
+      "name": "白狼",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "265",
+      "name": "茨木童子",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "266",
+      "name": "青行灯",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "267",
+      "name": "樱花妖",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "268",
+      "name": "惠比寿",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "269",
+      "name": "妖刀姬",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "270",
+      "name": "络新妇",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "271",
+      "name": "般若",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "272",
+      "name": "一目连",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "273",
+      "name": "青坊主",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "274",
+      "name": "古笼火",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "275",
+      "name": "万年竹",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "276",
+      "name": "夜叉",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "277",
+      "name": "黑童子",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "278",
+      "name": "白童子",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "279",
+      "name": "花鸟卷",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "280",
+      "name": "辉夜姬",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "281",
+      "name": "烟烟罗",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "282",
+      "name": "金鱼姬",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "283",
+      "name": "荒",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "285",
+      "name": "鸩",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "286",
+      "name": "以津真天",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "287",
+      "name": "匣中少女",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "288",
+      "name": "彼岸花",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "289",
+      "name": "兔丸",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "290",
+      "name": "小松丸",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "291",
+      "name": "书翁",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "292",
+      "name": "雪童子",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "293",
+      "name": "百目鬼",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "294",
+      "name": "奴良陆生",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "295",
+      "name": "追月神",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "296",
+      "name": "山风",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "297",
+      "name": "日和坊",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "298",
+      "name": "薰",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "300",
+      "name": "玉藻前",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "301",
+      "name": "数珠",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "302",
+      "name": "小袖之手",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "303",
+      "name": "弈",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "304",
+      "name": "御馔津",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "305",
+      "name": "卖药郎",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "306",
+      "name": "虫师",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "307",
+      "name": "猫掌柜",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "308",
+      "name": "鬼灯",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "309",
+      "name": "阿香",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "310",
+      "name": "蜜桃&芥子",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "311",
+      "name": "面灵气",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "312",
+      "name": "鬼切",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "313",
+      "name": "犬夜叉",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "314",
+      "name": "杀生丸",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "315",
+      "name": "少羽大天狗",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "316",
+      "name": "白藏主",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "317",
+      "name": "人面树",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "318",
+      "name": "於菊虫",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "319",
+      "name": "桔梗",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "320",
+      "name": "一反木绵",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "321",
+      "name": "入殓师",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "322",
+      "name": "炼狱茨木童子",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "323",
+      "name": "天井下",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "324",
+      "name": "化鲸",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "325",
+      "name": "八岐大蛇",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "326",
+      "name": "稻荷神御馔津",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "327",
+      "name": "苍风一目连",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "328",
+      "name": "赤影妖刀姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "329",
+      "name": "海忍",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "330",
+      "name": "不知火",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "331",
+      "name": "御怨般若",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "332",
+      "name": "久次良",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "333",
+      "name": "大岳丸",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "334",
+      "name": "骁浪荒川之主",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "335",
+      "name": "蟹姬",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "336",
+      "name": "朽木露琪亚",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "337",
+      "name": "黑崎一护",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "338",
+      "name": "泷夜叉姬",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "339",
+      "name": "烬天玉藻前",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "340",
+      "name": "纸舞",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "341",
+      "name": "鬼王酒吞童子",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "342",
+      "name": "星熊童子",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "343",
+      "name": "天剑韧心鬼切",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "344",
+      "name": "云外镜",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "345",
+      "name": "鬼童丸",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "346",
+      "name": "聆海金鱼姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "347",
+      "name": "缘结神",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "348",
+      "name": "浮世青行灯",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "349",
+      "name": "风狸",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "350",
+      "name": "蝎女",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "351",
+      "name": "铃鹿御前",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "352",
+      "name": "缚骨清姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "353",
+      "name": "紧那罗",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "354",
+      "name": "待宵姑获鸟",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "355",
+      "name": "麓铭大岳丸",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "356",
+      "name": "千姬",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "357",
+      "name": "初翎山风",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "358",
+      "name": "夜溟彼岸花",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "359",
+      "name": "灶门炭治郎",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "360",
+      "name": "灶门祢豆子",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "361",
+      "name": "垢尝",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "362",
+      "name": "蝉冰雪女",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "363",
+      "name": "帝释天",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "364",
+      "name": "阿修罗",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "365",
+      "name": "入内雀",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "366",
+      "name": "空相面灵气",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "367",
+      "name": "绘世花鸟卷",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "368",
+      "name": "饴细工",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "369",
+      "name": "食灵",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "370",
+      "name": "饭笥",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "371",
+      "name": "川猿",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "372",
+      "name": "因幡辉夜姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "373",
+      "name": "夜刀神",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "375",
+      "name": "影鳄",
+      "rarity": "R",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "376",
+      "name": "铃彦姬",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "377",
+      "name": "梦寻山兔",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "378",
+      "name": "迦楼罗",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "379",
+      "name": "不见岳",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "382",
+      "name": "灵海蝶",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "383",
+      "name": "神堕八岐大蛇",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "384",
+      "name": "粉婆婆",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "385",
+      "name": "大夜摩天阎魔",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "386",
+      "name": "我妻善逸",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "387",
+      "name": "嘴平伊之助",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "388",
+      "name": "心狩鬼女红叶",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "389",
+      "name": "须佐之男",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "390",
+      "name": "神启荒",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "391",
+      "name": "寻香行",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "392",
+      "name": "季",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "393",
+      "name": "禅心云外镜",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "394",
+      "name": "月读",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "395",
+      "name": "流光追月神",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "396",
+      "name": "修罗鬼童丸",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "397",
+      "name": "坂田银时",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "398",
+      "name": "天逆每",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "399",
+      "name": "言灵",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "400",
+      "name": "盗墓小鬼",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "401",
+      "name": "寄生魂",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "403",
+      "name": "唐纸伞妖",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "404",
+      "name": "天邪鬼绿",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "405",
+      "name": "天邪鬼赤",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "406",
+      "name": "天邪鬼黄",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "407",
+      "name": "天邪鬼青",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "408",
+      "name": "帚神",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "409",
+      "name": "涂壁",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "410",
+      "name": "招福达摩",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "411",
+      "name": "御行达摩",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "412",
+      "name": "奉为达摩",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "413",
+      "name": "大吉达摩",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "414",
+      "name": "大天狗呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "415",
+      "name": "酒吞呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "416",
+      "name": "荒川呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "417",
+      "name": "阎魔呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "418",
+      "name": "两面佛呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "419",
+      "name": "小鹿男呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "420",
+      "name": "茨木呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "421",
+      "name": "青行灯呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "422",
+      "name": "妖刀姬呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "423",
+      "name": "一目连呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "424",
+      "name": "花鸟卷呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "425",
+      "name": "辉夜姬呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "426",
+      "name": "荒呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "427",
+      "name": "彼岸花呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "428",
+      "name": "雪童子呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "429",
+      "name": "玉藻前呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "430",
+      "name": "御馔津呱",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "433",
+      "name": "生剥鬼",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "499",
+      "name": "鬼武达摩",
+      "rarity": "N",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "500",
+      "name": "神乐&定春",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "550",
+      "name": "孔雀明王",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "551",
+      "name": "寻森小鹿男",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "552",
+      "name": "慧明灯",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "553",
+      "name": "闻人翊悬",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "554",
+      "name": "纺愿缘结神",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "555",
+      "name": "渺念萤草",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "556",
+      "name": "天照",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "557",
+      "name": "伊邪那美",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "558",
+      "name": "盗人神",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "559",
+      "name": "本真三尾狐",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "561",
+      "name": "泷",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "562",
+      "name": "鲸汐千姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "563",
+      "name": "初音未来",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "564",
+      "name": "镜音铃·连",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "565",
+      "name": "福悦座敷童子",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "566",
+      "name": "晨晖惠比寿",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "567",
+      "name": "申屠子夜",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "568",
+      "name": "龙吟铃鹿御前",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "569",
+      "name": "猫川",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "570",
+      "name": "祸津神",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "571",
+      "name": "湍津姬",
+      "rarity": "SR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "572",
+      "name": "遥念烟烟罗",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "573",
+      "name": "龙珏",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "574",
+      "name": "心友犬神",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "575",
+      "name": "封阳君",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "576",
+      "name": "夏目&猫老师",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "577",
+      "name": "鬼金羊",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "578",
+      "name": "神酿星熊童子",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "579",
+      "name": "瑶音紧那罗",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "580",
+      "name": "晴思日和坊",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "581",
+      "name": "歌留多",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "582",
+      "name": "巡音流歌",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "583",
+      "name": "卑弥呼",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "584",
+      "name": "时曜泷夜叉姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "585",
+      "name": "荒骷髅",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "586",
+      "name": "云间不见岳",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "587",
+      "name": "木之本樱",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "588",
+      "name": "李小狼",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "590",
+      "name": "妙主九命猫",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "591",
+      "name": "雪御前",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "592",
+      "name": "平将门",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "593",
+      "name": "妖刀姬·绯夜猎刃",
+      "rarity": "UR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "594",
+      "name": "梦引蝴蝶精",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "595",
+      "name": "梦山白藏主",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "596",
+      "name": "神无月",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "597",
+      "name": "葛叶",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "598",
+      "name": "灼华桃花妖",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "599",
+      "name": "蚀月吸血姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "600",
+      "name": "市加美",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "601",
+      "name": "思金神",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "602",
+      "name": "天火命铃彦姬",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "603",
+      "name": "毗沙门天",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "604",
+      "name": "不相狐禅",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "605",
+      "name": "洛天依",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "606",
+      "name": "言和",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "607",
+      "name": "百羽凤凰火",
+      "rarity": "SP",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "608",
+      "name": "石长姬",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    },
+    {
+      "id": "609",
+      "name": "咲耶",
+      "rarity": "SSR",
+      "level": 40,
+      "star": 6,
+      "awakened": true,
+      "shards": 0,
+      "base": {}
+    }
+  ]
+}

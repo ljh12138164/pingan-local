@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+import assert from 'node:assert/strict';
+import {build} from 'esbuild';
+import ExcelJS from 'exceljs';
+await fs.mkdir('work',{recursive:true});await build({entryPoints:['src/inventoryWorkbook.ts'],bundle:true,platform:'node',format:'esm',external:['exceljs'],outfile:'work/inventory-workbook-test-module.mjs'});
+const {inventoryWorkbook}=await import(pathToFileURL(process.cwd()+'/work/inventory-workbook-test-module.mjs'));
+const soul={id:'001234567890123456789',set:'测试套装',slot:2,quality:6,level:0,equipped:'own',locked:false,main:'speed',value:12.123456789,sub:{crit:0,attack_pct:9.87654321},innate:{defense:40}};
+const data={name:'导出测试',souls:[soul],heroes:[],resources:[],guild:[],tasks:[],sets:[]};
+const bytes=await inventoryWorkbook({souls:[soul,{...soul,id:'=1+1',set:'@SUM(1,1)'}],data,owners:new Map([['own','玉藻前']]),discarded:new Set([soul.id]),values:new Map([[soul.id,{score:0,growth:null}]]),metadata:[['筛选条件','号位=2']]});
+await fs.writeFile('work/inventory-export-test.xlsx',bytes);assert.equal(Buffer.from(bytes).subarray(0,4).toString('hex'),'504b0304');
+const loaded=new ExcelJS.Workbook();await loaded.xlsx.load(Buffer.from(bytes));const sheet=loaded.getWorksheet('御魂筛选结果');
+assert.equal(sheet.rowCount,3);assert.equal(sheet.getCell('A2').value,soul.id);assert.equal(sheet.getCell('F2').value,'玉藻前');assert.equal(sheet.getCell('H2').value,'是');assert.equal(sheet.getCell('J2').value,12.123456789);assert.equal(sheet.getCell('K2').value,null);assert.equal(sheet.getCell('L2').value,0);
+const crit=sheet.getRow(1).values.indexOf('副属性·暴击 (%)');assert.equal(sheet.getCell(2,crit).value,0);assert.equal(sheet.getCell(2,crit).type,ExcelJS.ValueType.Number);
+assert.equal(sheet.getCell('A3').value,'=1+1');assert.equal(sheet.getCell('A3').type,ExcelJS.ValueType.String);assert.equal(sheet.getCell('B3').value,'@SUM(1,1)');assert.equal(sheet.views[0].ySplit,1);assert.equal(loaded.worksheets.length,2);assert.ok(loaded.getWorksheet('导出说明').getColumn(2).values.includes('号位=2'));
+console.log('PASS: xlsx round trip, numeric zero/precision, unknown blanks, text IDs/formula-like strings, filters, frozen headers and metadata.');

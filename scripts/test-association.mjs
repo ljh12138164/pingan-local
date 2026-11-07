@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {build} from 'esbuild';
+import fs from 'node:fs/promises';
+await fs.mkdir('work',{recursive:true});
+await build({entryPoints:['src/association.ts'],outfile:'work/association-test.mjs',bundle:true,platform:'node',format:'esm'});
+const {defaultAssociation,validateAssociation,associationPlans,associationDraft,rememberAssociationDraft,associationCompleteness}=await import('../work/association-test.mjs');
+assert.equal(validateAssociation(defaultAssociation),null);
+for(const bad of [null,{},[],{...defaultAssociation,name:''},{...defaultAssociation,averageRatio:0},{...defaultAssociation,weights:[1,2,Infinity]},{...defaultAssociation,thresholds:{...defaultAssociation.thresholds,speed:[26,25]}},{...defaultAssociation,levels:{...defaultAssociation.levels,speed:{speed:4}}}])assert.ok(validateAssociation(bad));
+const clone={...structuredClone(defaultAssociation),id:'mine',name:'测试'};
+assert.deepEqual(associationPlans({associationPlans:[null,{},clone,clone,defaultAssociation]}).map(p=>p.id),['default','mine']);
+assert.equal(associationPlans({associationPlans:'bad'}).length,1);
+rememberAssociationDraft('role:latest',{plan:clone,metric:'speed'});clone.weights[0]=8;assert.equal(associationDraft('role:latest').plan.weights[0],4);assert.equal(associationDraft('other:latest'),undefined);const restored=associationDraft('role:latest');restored.plan.weights[0]=9;assert.equal(associationDraft('role:latest').plan.weights[0],4);rememberAssociationDraft('role:latest',null);assert.equal(associationDraft('role:latest'),undefined);assert.match(associationCompleteness(false),/未读取，仅含已知数据/);
+console.log('association: bundled schema, invalid imports, null settings and duplicate IDs passed');

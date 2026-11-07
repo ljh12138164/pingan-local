@@ -1,0 +1,8 @@
+.versionbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 30px;border-bottom:1px solid var(--color-line);background:var(--color-surface);font-size:12px;flex-shrink:0}
+.versionbar label{white-space:nowrap;color:var(--color-muted)}
+.versionbar select{max-width:min(420px,100%);min-width:0;min-height:34px;font-size:12px;flex:0 1 340px}
+.versionbar small{color:var(--color-muted);font-size:12px}
+.versionbar p{margin:0;flex:1 1 400px;line-height:1.7;max-width:80ch}
+.versionbar button{font-size:12px;min-height:34px}
+.versionbar.is-historical{background:color-mix(in srgb,var(--color-primary) 6%,var(--color-surface))}
+@media(max-width:700px){.versionbar{padding:10px 14px;gap:8px}.versionbar select{flex:1 1 200px;max-width:calc(100% - 64px)}.versionbar small,.versionbar p{flex-basis:100%}.versionbar button{margin-left:auto}}

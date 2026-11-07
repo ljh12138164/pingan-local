@@ -1,0 +1,29 @@
+.radar-filters .roster-views { margin-bottom: 20px; }
+:root[data-theme] .radar-filters .roster-views button[aria-pressed="true"] { background: var(--color-surface); color: var(--color-primary); }
+.radar-controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; }
+.radar-controls .field { flex: 1 1 170px; min-width: 0; margin: 0; }
+.radar-controls .field:first-child { flex-basis: 240px; }
+.radar-controls .check { margin-bottom: 10px; }
+.radar-controls select { width: 100%; }
+.radar-filters .fineprint { margin: 16px 0 0; }
+.radar-filters .fineprint a { margin-left: 8px; }
+.soul-radar .two-columns { align-items: start; }
+.soul-radar .radar-chart { max-width: 100%; }
+.radar-chart .radar-grid { fill: none; stroke: var(--color-line); }
+.radar-chart .radar-shape { fill: color-mix(in srgb, var(--color-primary) 18%, transparent); stroke: var(--color-primary); stroke-width: 2; }
+.radar-chart text { fill: var(--color-muted); font-size: 12px; }
+.radar-results table { min-width: 740px; }
+.radar-results tbody th { font-weight: 500; white-space: nowrap; }
+.radar-results .numeric { font-variant-numeric: tabular-nums; }
+.radar-set-name { display: flex; gap: 10px; align-items: center; }
+.radar-set-name .game-image { width: 32px; height: 32px; flex: 0 0 32px; }
+@media (max-width: 700px) {
+  .radar-filters { padding: 18px; }
+  .radar-filters .roster-views { margin-bottom: 16px; }
+  .radar-controls { gap: 12px; }
+  .radar-controls .field { flex-basis: calc(50% - 8px); }
+  .radar-controls .field:first-child { flex-basis: 100%; }
+  .radar-controls .check { margin-bottom: 0; }
+  .soul-radar .two-columns { grid-template-columns: minmax(0, 1fr); }
+  .radar-results .table-toolbar { align-items: start; gap: 8px; }
+}

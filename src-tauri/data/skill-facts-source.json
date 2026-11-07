@@ -1,0 +1,38 @@
+{
+  "source": "独立只读解析本机MuMu游戏补丁 skill / buff / skill_tips、安装包 slave，以及已读取的 dict_skill 配置；缓存资料，非在线版本校验",
+  "generatedAt": "2026-10-28T17:01:26.209Z",
+  "inputs": {
+    "skill": {
+      "sha256": "20e0c70848c4e5eed8044f82ba33adbba4636f22099def54bd785e71f780bf78"
+    },
+    "dict_skill": {
+      "sha256": "fa84cd6128d83c4c57ef142f1f2d1a0306c50dec94a9b2166ced4a4d9b153890"
+    },
+    "buff": {
+      "sha256": "1180907bea3546f6f34818b0319539c8abc88a328b0e1f0684cf89914265827f"
+    },
+    "tips": {
+      "sha256": "1badfc496b815b5549cf0630dcee0318ac03f1ad69d5c026f97f6b5afdea3327"
+    },
+    "slave": {
+      "sha256": "e3d2b43bb010c0063e0106669b9382aeef85012d933040de00c40e173198c9d6"
+    },
+    "heroes": {
+      "sha256": "251765f267b2bc3ad1a9ae2fbfd3f1f8ebb5b46281e112c281c946a692285b6a"
+    }
+  },
+  "generator": "scripts/build-skill-facts.mjs",
+  "skills": 757,
+  "levels": 3562,
+  "changed": 2082,
+  "resolved": 2081,
+  "unresolved": 0,
+  "references": 5808,
+  "tokens": [],
+  "limits": [
+    "按现有默认变体与1–5级缓存生成，条件变体与其他等级未扩展",
+    "补充说明默认展开；状态和术语来自同一游戏配置缓存",
+    "不据技能描述推导完整战斗伤害或套装触发",
+    "游戏内显示格式与战斗结果尚未逐项对照"
+  ]
+}

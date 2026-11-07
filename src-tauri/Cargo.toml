@@ -1,0 +1,39 @@
+[package]
+name = "pingan-local"
+version = "0.4.0"
+edition = "2021"
+default-run = "pingan-local"
+
+[lib]
+name = "pingan_core"
+crate-type = ["rlib"]
+
+[[bin]]
+name = "pingan-local"
+path = "src/main.rs"
+required-features = ["desktop"]
+
+[[bin]]
+name = "pingan-service"
+path = "src/server.rs"
+
+[features]
+default = []
+desktop = ["dep:tauri", "dep:tauri-build", "dep:tauri-plugin-dialog"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [], optional = true }
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+rusqlite = { version = "0.38", features = ["bundled"] }
+chrono = { version = "0.4", features = ["serde"] }
+rand = "0.8"
+tiny_http = "0.12"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "rustls-tls", "json"] }
+tauri = { version = "2", features = [], optional = true }
+tauri-plugin-dialog = { version = "2", optional = true }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.61", features = ["Win32_Foundation", "Win32_System_Diagnostics_ToolHelp", "Win32_System_Diagnostics_Debug", "Win32_System_Threading", "Win32_Security", "Win32_UI_WindowsAndMessaging"] }

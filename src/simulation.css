@@ -1,0 +1,35 @@
+.simulation-modes{margin-bottom:24px}
+.batch-settings>.muted{margin:0 0 20px}
+.batch-fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0 18px;padding:0;border:0;margin:0;min-width:0}
+.batch-fields .field,.batch-result-tools .field{min-width:0}
+.batch-options{gap:24px;margin:12px 0 20px}
+.batch-run,.batch-export,.batch-pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.batch-run p{margin:0}
+.batch-rules{margin-top:20px;border-top:1px solid var(--color-line);padding-top:16px}
+.batch-rules summary{cursor:pointer;color:var(--color-primary)}
+.batch-rules p{max-width:75ch;color:var(--color-muted)}
+.batch-result-tools{display:grid;grid-template-columns:2fr 1fr 1fr;gap:18px;margin-top:20px}
+.batch-export{margin:8px 0 16px}
+.batch-list>details{border-top:1px solid var(--color-line)}
+.batch-list>details:last-child{border-bottom:1px solid var(--color-line)}
+.batch-list summary{display:flex;align-items:center;gap:16px;padding:16px 0;cursor:pointer;list-style:none}
+.batch-list summary::-webkit-details-marker{display:none}
+.batch-list summary:hover{background:var(--color-background)}
+.batch-list .game-image{width:48px;height:48px;flex-shrink:0;border-radius:var(--radius-sm);object-fit:contain}
+.batch-soul-name{flex:1;min-width:0}
+.batch-soul-name strong,.batch-soul-name small,.batch-score small,.batch-score strong{display:block}
+.batch-soul-name small{overflow-wrap:anywhere;color:var(--color-muted);font-size:12px}
+.batch-score{min-width:95px;text-align:right;font-variant-numeric:tabular-nums}
+.batch-score small{font-size:12px;color:var(--color-muted)}
+.batch-score strong{font-size:18px;color:var(--color-primary)}
+.batch-open{color:var(--color-primary);font-size:12px}
+.batch-detail{padding:0 0 20px}
+.batch-detail>.fineprint{overflow-wrap:anywhere}
+.batch-comparison{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.batch-comparison>div{min-width:0}
+.batch-comparison h3{font-size:14px;color:var(--color-muted);margin:12px 0}
+.batch-pagination{margin-top:20px;color:var(--color-muted)}
+.batch-run>.actions>button{white-space:nowrap}
+@media(max-width:1100px){.batch-fields{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.batch-run>.actions>button:first-child{flex:0 0 auto}}
+@media(max-width:700px){.simulation-modes{gap:8px;margin-bottom:18px}.batch-fields{gap:0 12px}.batch-fields>.field:last-child{grid-column:1/-1}.batch-options{gap:12px}.batch-settings .section-title{align-items:flex-start;flex-direction:column}.batch-run{align-items:stretch}.batch-run>.actions{width:100%}.batch-run>.actions>button{flex:1}.batch-result-tools{grid-template-columns:1fr 1fr;gap:0 12px}.batch-result-tools>.field:first-child{grid-column:1/-1}.batch-list summary{gap:10px;flex-wrap:wrap}.batch-list .game-image{width:40px;height:40px}.batch-soul-name{flex-basis:calc(100% - 50px)}.batch-score{min-width:0;text-align:left;margin-right:12px}.batch-score strong{font-size:16px}.batch-open{margin-left:auto}.batch-comparison{grid-template-columns:1fr;gap:8px}.batch-pagination{align-items:flex-start}.batch-export .actions{flex-wrap:wrap}}

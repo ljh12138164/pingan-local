@@ -1,0 +1,53 @@
+.exchange-fields{display:grid;grid-template-columns:2fr repeat(3,minmax(0,1fr));gap:18px;align-items:start}
+.exchange-fields>.field,.exchange-tools>.field{min-width:0}
+.exchange-suit>button{justify-content:flex-start;min-height:42px;width:100%;text-align:left}
+.exchange-suit>button>span{flex:1}
+.exchange-suit .game-image{width:28px;height:28px;object-fit:contain}
+.exchange-picker{margin-top:8px;padding:14px;background:var(--color-background);border:1px solid var(--color-line);border-radius:var(--radius-sm)}
+.exchange-picker-options{display:grid;gap:4px;max-height:280px;overflow:auto}
+.exchange-picker-options>button{justify-content:flex-start;text-align:left}
+.exchange-picker-options>button>span{flex:1}
+.exchange-targets{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 18px;border:0;border-top:1px solid var(--color-line);margin:12px 0 0;padding:16px 0 0;min-width:0}
+.exchange-targets legend{font-size:12px;color:var(--color-muted);padding:0 8px 0 0}
+.exchange-targets.without-fixed{grid-template-columns:repeat(2,minmax(0,1fr))}
+.exchange-targets>.fineprint{grid-column:1/-1;margin:0 0 16px;max-width:75ch}
+.exchange-subtargets{min-width:0;padding-top:22px}
+.exchange-subtargets>summary{cursor:pointer;border:1px solid var(--color-line);border-radius:var(--radius-sm);padding:9px 12px;color:var(--color-ink)}
+.exchange-subtargets>div{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:14px 0}
+.exchange-run{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.exchange-run p{margin:0}
+.exchange-run strong{color:var(--color-primary);font-variant-numeric:tabular-nums}
+.exchange-run small{display:block;color:var(--color-muted);margin-top:4px}
+.exchange-tools{display:flex;align-items:center;flex-wrap:wrap;gap:12px 18px;margin-top:20px}
+.exchange-tools>.field{flex:1;min-width:150px}
+.exchange-tools>.check{margin-right:12px}
+.exchange-bulk{margin-bottom:20px}
+.exchange-bag-seed{max-width:360px}
+.exchange-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:20px}
+.exchange-item{min-width:0;border:1px solid var(--color-line);border-radius:var(--radius-md);padding:16px;display:flex;flex-direction:column;background:var(--color-surface)}
+.exchange-item.target-match{border-color:var(--color-primary)}
+.exchange-item>header{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:14px;color:var(--color-muted)}
+.exchange-item>header small{font-size:12px}
+.exchange-item-name{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.exchange-item-name>.game-image{width:44px;height:44px;object-fit:contain;flex-shrink:0}
+.exchange-item h3{font-size:14px;margin:0}
+.exchange-item-name small{color:var(--color-muted);font-size:12px}
+.exchange-stats{margin:0 0 16px;font-variant-numeric:tabular-nums}
+.exchange-stats>div{display:flex;justify-content:space-between;gap:8px;padding:5px 0}
+.exchange-stats dt{color:var(--color-muted);font-size:12px}
+.exchange-stats dd{margin:0;text-align:right;white-space:nowrap}
+.exchange-stats>.exchange-main,.exchange-stats>.exchange-fixed{padding-bottom:10px;margin-bottom:6px;border-bottom:1px solid var(--color-line)}
+.exchange-stats>.exchange-main dd,.exchange-stats>.exchange-fixed dd{color:var(--color-primary)}
+.exchange-item>footer{display:flex;justify-content:space-between;gap:8px;margin-top:auto}
+.exchange-item>footer>button{flex:1;padding:8px;white-space:nowrap}
+.exchange-score{display:flex;justify-content:space-between;padding:8px 0;margin:0 0 8px;color:var(--color-muted);font-size:12px}
+.exchange-score strong{color:var(--color-primary);font-size:16px}
+.exchange-trajectory{border-top:1px solid var(--color-line);padding-top:12px;margin-top:auto}
+.exchange-trajectory summary,.exchange-explanation summary{cursor:pointer;color:var(--color-primary)}
+.exchange-trajectory .fineprint{overflow-wrap:anywhere}
+.exchange-trajectory ol{list-style:none;margin:12px 0;padding:0}
+.exchange-trajectory li{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;font-size:12px;padding:6px 0}
+.exchange-explanation p{max-width:75ch;color:var(--color-muted)}
+@media(max-width:1500px){.exchange-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:1100px){.exchange-fields,.exchange-targets{grid-template-columns:repeat(2,minmax(0,1fr))}.exchange-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.exchange-subtargets{padding-top:0;margin-bottom:16px;grid-column:1/-1}}
+@media(max-width:700px){.exchange-fields{gap:0 12px;grid-template-columns:repeat(2,minmax(0,1fr))}.exchange-suit{grid-column:1/-1}.exchange-fields>.field:last-child{grid-column:1/-1}.exchange-targets{gap:0 12px}.exchange-targets>.field{min-width:0}.exchange-grid{grid-template-columns:1fr}.exchange-run{align-items:stretch}.exchange-run>.actions{width:100%}.exchange-run>.actions>button{flex:1}.exchange-tools{align-items:flex-start}.exchange-tools>.field{min-width:120px}.exchange-results>.section-title{align-items:flex-start;flex-direction:column}.exchange-item>footer>button{flex:1}.exchange-bulk>button{flex:1;min-width:120px}.exchange-subtargets>div{grid-template-columns:repeat(2,minmax(0,1fr))}}

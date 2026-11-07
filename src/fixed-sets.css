@@ -1,0 +1,9 @@
+.fixed-set-table { min-width: 480px; table-layout: fixed; }
+.fixed-set-table :is(th, td):first-child { width: 100px; position: sticky; left: 0; z-index: 1; background: var(--color-surface); white-space: nowrap; }
+.fixed-set-table th:first-child { background: var(--color-surface-alt); }
+.fixed-set-scroll-hint { display: none; }
+.fixed-set-editor > button { white-space: nowrap; flex-shrink: 0; }
+@media (max-width: 700px) {
+  .fixed-set-scroll-hint { display: block; }
+  .fixed-set-editor > button { flex-basis: 100%; }
+}

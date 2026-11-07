@@ -1,0 +1,136 @@
+:root { --color-surface-alt: #f0f3f8; --color-focus: #7795d2; }
+:root[data-theme="dark"] { color-scheme: dark; color: #edf0f7; background: #15171c; --color-primary: #aac0ff; --color-primary-hover: #c3d1ff; --color-ink: #edf0f7; --color-muted: #b2b9c8; --color-background: #15171c; --color-surface: #1f2229; --color-surface-alt: #272b34; --color-line: #3b4353; --color-focus: #aac0ff; }
+:root[data-theme="dark"] body { color: var(--color-ink); background: var(--color-background); }
+:root[data-theme="dark"] :is(button, .button, input, select, textarea) { color: var(--color-ink); border-color: var(--color-line); background-color: var(--color-surface); }
+:root[data-theme="dark"] :is(button, .button):hover { background-color: #2e3440; border-color: #78839a; }
+:root[data-theme="dark"] :is(button, .button).primary { background: var(--color-primary); border-color: var(--color-primary); color: #152141; }
+:root[data-theme="dark"] :is(button, .button):disabled { background: #292e38; border-color: #3b4353; color: #9ba5b8; }
+:root[data-theme="dark"] button.primary:disabled { background: #475579 !important; border-color: #475579 !important; color: #d7dff1; }
+:root[data-theme="dark"] :is(input, textarea)::placeholder { color: #a2acbf; }
+:root[data-theme="dark"] button.text { color: var(--color-primary); background: transparent; }
+:root[data-theme="dark"] :is(.sheet, .topbar, .hero-picker-popup, .hero-detail, .soul-detail, .table-scroll, .calculator-form, .simulation-bag, .import-summary, .api-credentials) { color: var(--color-ink); background: var(--color-surface); }
+:root[data-theme="dark"] :is(.filters, .padded-heading, th, .hero-detail, .picker-search, .table-toolbar, .source-tabs, .read-progress, .calculator-summary, .calculator-overview, .calculator-form summary, .candidate-summary, .soul-main, .main-stat, .stat-card, .search-result, .result-panel, .read-result) { background-color: var(--color-surface-alt); color: var(--color-ink); border-color: var(--color-line); }
+:root[data-theme="dark"] :is(.field-label, .calculator-form summary, .breadcrumb, .nav-section > p, .nav-group-toggle, .profile-switch, .sidebar-bottom, .soul-detail dl, .soul-detail dl dt, .info-list dt, .table-toolbar, .read-source-label, .range-value, th) { color: var(--color-muted); }
+:root[data-theme="dark"] :is(.nav-section > a, .sidebar-bottom > a, .breadcrumb b, .hero-name, .bar-row, .filter-summary, .score-rule-summary, .calculator-summary strong, .main-stat strong, .stat-card strong, .profile-switch select, .hero-detail dd) { color: var(--color-ink); }
+:root[data-theme="dark"] :is(.nav-section > a.active, .sidebar-bottom > a.active, .picker-options [role="option"].highlighted, .source-tabs button.active) { color: var(--color-primary); background: #303847; }
+:root[data-theme="dark"] :is(.nav-section > a:hover, .sidebar-bottom > a:hover, tbody tr:hover) { background: #2a303b; }
+:root[data-theme="dark"] :is(.badge, .avatar, .heroes-sheet .avatar, .bar-track, .tabs button, .tool-tabs button, .read-source-icon) { color: var(--color-primary); background: #303b55; }
+:root[data-theme="dark"] :is(.badge.green, .notice.success) { color: #a7dfc1; background: #234037; }
+:root[data-theme="dark"] :is(.badge.amber, .notice, .demo-banner, .warning) { color: #f0d49e; background: #393126; border-color: #685a42; }
+:root[data-theme="dark"] .toast { background: #e2e9fb; color: #19253d; }
+:root[data-theme="dark"] .toast.error { background: #5b2f36; color: #ffe2e5; }
+:root[data-theme="dark"] :is(.brand strong, .brand small, .empty h3, .field, .calculator-form label, .calculator-form label > span) { color: var(--color-muted); }
+:root[data-theme="dark"] .brand strong { color: var(--color-ink); }
+:root[data-theme="dark"] .local-status { color: #a7c8b8; }
+:root[data-theme="dark"] .brand-mark { color: #152141; }
+:root[data-theme="dark"] :is(.checks label, .check, .table-toolbar > span, .soul-name > span, .substats, .pagination, .formula, details p, .welcome p, .workspace-footer a) { color: var(--color-muted); }
+:root[data-theme="dark"] :is(.soul-name, .score, summary) { color: var(--color-primary); }
+:root[data-theme="dark"] .step-number { color: var(--color-primary); background: #303b55; }
+:root[data-theme="dark"] button.text.soul-name { color: var(--color-primary) !important; }
+:root[data-theme="dark"] :is(.picker-meta, .picker-help, .search-input, .detail-pane, .combination-detail) { color: var(--color-muted); background: var(--color-surface); border-color: var(--color-line); }
+:root[data-theme="dark"] tbody tr.selected { background: #303b55; }
+:root[data-theme="dark"] ::selection { background: #aac0ff; color: #152141; }
+:root[data-theme="dark"] * { scrollbar-color: #596274 #1f2229; }
+:root[data-theme="dark"] ::-webkit-scrollbar-track { background: #1f2229; }
+:root[data-theme="dark"] ::-webkit-scrollbar-thumb { background: #596274; }
+.sidebar { background-image: linear-gradient(#7f8aa410 1px, transparent 1px), linear-gradient(90deg, #7f8aa410 1px, transparent 1px); }
+:root[data-theme="dark"] .sidebar { background-color: #191c22; border-color: var(--color-line); }
+.app-shell.home-page .topbar { border-bottom: 0; background: var(--color-background); height: 46px; min-height: 46px; }
+.home-page .topbar-actions { display: none; }
+.home-page .workspace { padding-top: 9px; }
+.home-page .breadcrumb { font-size: 12px; letter-spacing: .08em; }
+.courtyard-header { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-bottom: 26px; }
+.courtyard-header h1 { display: flex; align-items: center; gap: 22px; font-family: "KaiTi", "STKaiti", "FangSong", serif; font-size: 38px; font-weight: 400; letter-spacing: .12em; margin-bottom: 10px; }
+.courtyard-header p { margin: 0; color: var(--color-muted); font-size: 13px; }
+.courtyard-seal { display: inline-block; padding: 4px 5px; border: 1px solid var(--color-primary); color: var(--color-primary); font-size: 12px; line-height: 1.8; letter-spacing: 0; transform: rotate(5deg); }
+.courtyard-header-actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: flex-end; }
+.courtyard-header-actions button { min-height: 42px; padding-inline: 16px; }
+.courtyard-toolbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; padding: 14px 0; border-top: 1px solid var(--color-line); border-bottom: 1px solid var(--color-line); margin-bottom: 22px; }
+.courtyard-theme { display: inline-flex; border: 1px solid var(--color-line); border-radius: 28px; padding: 4px; background: var(--color-surface); }
+.courtyard-theme button { border: 0; background: transparent; color: var(--color-muted); border-radius: 22px; min-height: 32px; padding: 5px 14px; }
+.courtyard-theme button[aria-pressed="true"] { color: var(--color-primary); background: var(--color-surface-alt); }
+.courtyard-archive-controls { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; min-width: 0; }
+.courtyard-archive-controls label { display: flex; align-items: center; gap: 10px; color: var(--color-muted); }
+.courtyard-archive-controls select { min-width: 180px; max-width: 260px; }
+.courtyard-notice { border: 1px solid var(--color-line); border-radius: 6px; padding: 11px 14px; margin: 0 0 16px; color: var(--color-muted); font-size: 12px; }
+.courtyard-notice button { margin-left: 12px; }
+.courtyard-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.courtyard-panel { padding: 23px 24px 0; border: 1px solid var(--color-line); background: var(--color-surface); border-radius: 16px; min-width: 0; display: flex; flex-direction: column; }
+.courtyard-panel-heading { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--color-line); padding-bottom: 16px; margin-bottom: 22px; }
+.courtyard-panel-heading h2 { margin: 0; font-size: 17px; }
+.courtyard-panel-heading > svg { color: var(--color-muted); }
+.courtyard-identity { display: flex; gap: 18px; align-items: center; margin-bottom: 23px; }
+.courtyard-avatar { display: grid; place-items: center; width: 72px; height: 72px; border-radius: 50%; border: 1px solid var(--color-primary); color: var(--color-primary); background: var(--color-surface-alt); }
+.courtyard-identity h3 { font-size: 28px; margin: 0; line-height: 1.4; overflow-wrap: anywhere; }
+.courtyard-identity p { color: var(--color-muted); margin: 4px 0 0; font-size: 12px; }
+.courtyard-counts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin-bottom: 22px; }
+.courtyard-counts > a { display: flex; justify-content: center; gap: 18px; align-items: center; padding: 15px 10px; border: 1px solid var(--color-line); border-radius: 12px; color: var(--color-primary); }
+.courtyard-counts > a:hover { background: var(--color-surface-alt); text-decoration: none; }
+.courtyard-counts strong { display: block; font-family: Georgia, "Times New Roman", serif; font-size: 35px; font-weight: 400; line-height: 1.25; font-variant-numeric: tabular-nums; }
+.courtyard-counts span { display: block; color: var(--color-muted); font-size: 12px; margin-top: 3px; }
+.courtyard-resources { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 24px; row-gap: 13px; margin: 0 0 23px; }
+.courtyard-resources > div { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-width: 0; }
+.courtyard-resources dt { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--color-muted); }
+.courtyard-resources .game-image { width: 25px; height: 25px; object-fit: contain; background: transparent; border-radius: 0; }
+.courtyard-resources dd { color: var(--color-primary); margin: 0; font-size: 18px; font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.courtyard-panel-footer { margin-top: auto; padding: 14px 0; border-top: 1px solid var(--color-line); display: flex; justify-content: space-between; gap: 10px; align-items: center; flex-wrap: wrap; }
+.courtyard-panel-footer a { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; }
+.courtyard-panel-footer small { font-size: 11px; }
+.realm-summary { display: flex; flex-direction: column; gap: 19px; }
+.realm-record + .realm-record { padding-top: 17px; border-top: 1px solid var(--color-line); }
+.realm-record h3 { font-size: 12px; color: var(--color-muted); margin-bottom: 10px; font-weight: 400; }
+.realm-record-title { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
+.realm-record-title strong { color: var(--color-primary); font-size: 18px; font-variant-numeric: tabular-nums; }
+.realm-record small { display: block; font-size: 11px; }
+.realm-rewards { font-size: 12px; color: var(--color-muted); margin: 7px 0 0; }
+.realm-capture { margin-top: 19px; margin-bottom: 15px; }
+.courtyard-realm-actions { display: flex; flex-wrap: wrap; gap: 9px; margin-top: auto; }
+.courtyard-realm-actions :is(button, .button) { padding-inline: 11px; font-size: 12px; }
+.courtyard-reminder-note { display: block; padding: 9px 0 19px; font-size: 11px; }
+.courtyard-tasks { margin-bottom: 18px; }
+.courtyard-tasks > label { display: flex; align-items: center; gap: 10px; min-height: 37px; }
+.courtyard-tasks span { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.courtyard-tasks small { font-size: 11px; }
+.courtyard-guild-name { font-size: 20px; }
+.courtyard-guild-name small { display: block; font-size: 12px; font-weight: 400; margin-top: 4px; }
+.courtyard-members { padding-left: 22px; margin: 0 0 16px; color: var(--color-muted); }
+.courtyard-members li { padding: 6px 0 6px 5px; }
+.courtyard-members li > span { color: var(--color-ink); }
+.courtyard-members strong { float: right; color: var(--color-primary); font-variant-numeric: tabular-nums; }
+.courtyard-members small { font-size: 10px; margin-left: 6px; font-weight: 400; }
+.courtyard-tools { grid-column: 1 / -1; padding-bottom: 24px; }
+.courtyard-search { display: flex; gap: 10px; margin-bottom: 17px; }
+.courtyard-search .search-input { flex: 1; min-width: 0; }
+.courtyard-shortcuts { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.courtyard-shortcuts a { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 12px; padding-top: 12px; border-top: 1px solid var(--color-line); }
+.courtyard-widgets { margin-top: 24px; }
+.courtyard-widgets > summary { color: var(--color-muted); cursor: pointer; padding: 8px 0; }
+.courtyard-customizer { margin-bottom: 20px; }
+.courtyard-layout-options { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; }
+.courtyard-layout-options > div { display: flex; align-items: center; gap: 4px; padding: 5px 9px; border: 1px solid var(--color-line); border-radius: 6px; }
+.courtyard-layout-options label { display: flex; align-items: center; gap: 8px; margin-right: 10px; }
+@media (min-width: 1600px) { .home-page .workspace { padding-inline: 38px; } .courtyard-header { padding-bottom: 30px; } .courtyard-panel { padding-inline: 28px; } }
+@media (max-width: 1150px) { .courtyard-header { align-items: flex-start; } .courtyard-header-actions { max-width: 330px; } .courtyard-resources { column-gap: 16px; } .courtyard-resources dd { font-size: 16px; } .courtyard-archive-controls select { min-width: 150px; max-width: 210px; } }
+@media (max-width: 950px) { .courtyard-grid { grid-template-columns: 1fr; } .courtyard-tools { grid-column: auto; } .courtyard-header-actions { max-width: 290px; } .courtyard-shortcuts { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 700px) {
+  .home-page .topbar { min-height: 52px; height: 52px; }
+  .home-page .workspace { padding-top: 12px; }
+  .courtyard-header { display: block; padding-bottom: 20px; }
+  .courtyard-header h1 { font-size: 34px; }
+  .courtyard-header-actions { max-width: none; justify-content: flex-start; margin-top: 18px; gap: 8px; }
+  .courtyard-header-actions button { padding-inline: 10px; min-height: 38px; font-size: 12px; }
+  .courtyard-archive-controls { width: 100%; }
+  .courtyard-archive-controls label { width: 100%; justify-content: space-between; }
+  .courtyard-archive-controls select { max-width: none; min-width: 0; flex: 1; }
+  .courtyard-archive-controls label:first-child select { max-width: calc(100% - 80px); }
+  .courtyard-panel { padding: 20px 18px 0; }
+  .courtyard-panel-heading { margin-bottom: 20px; }
+  .courtyard-counts strong { font-size: 30px; }
+  .courtyard-counts > a { gap: 11px; }
+  .courtyard-resources { column-gap: 16px; row-gap: 12px; }
+  .courtyard-resources dt { gap: 5px; font-size: 11px; }
+  .courtyard-resources dd { font-size: 15px; }
+  .courtyard-search { flex-wrap: wrap; }
+  .courtyard-search .search-input { flex-basis: 100%; }
+  .courtyard-tools { padding-bottom: 20px; }
+}

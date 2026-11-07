@@ -1,0 +1,16 @@
+{
+  "id":"default", "name":"通用关联分", "description":"按目标属性的相关程度计分；用于比较候选御魂，不代表实际战斗伤害。",
+  "averageRatio":0.9, "weights":[4,2,1],
+  "levels":{
+    "crit_output":{"attack":3,"attack_pct":2,"crit":1,"crit_damage":1},
+    "damage":{"attack":3,"attack_pct":2,"crit":1,"crit_damage":1},
+    "hit":{"hit":1,"speed":2},"resist":{"resist":1,"speed":2},
+    "hp":{"hp_pct":1,"hp":3},"crit_damage":{"crit_damage":1},
+    "healing":{"crit":1,"crit_damage":1,"hp_pct":2,"hp":3},
+    "hit_resist":{"hit":1,"resist":1,"speed":2},
+    "defense_output":{"defense_pct":1,"crit":1,"crit_damage":1,"defense":3},
+    "attack":{"attack_pct":1,"attack":3},"defense":{"defense_pct":1,"defense":3},
+    "speed":{"speed":1},"crit":{"crit":1,"crit_damage":2}
+  },
+  "thresholds":{"attack":[500,800],"hp":[1760,2100],"defense":[98,130],"speed":[20,25],"crit":[20,25],"crit_damage":[24,36],"hit":[24,36],"resist":[24,36]}
+}

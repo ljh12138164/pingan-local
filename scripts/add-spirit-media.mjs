@@ -1,0 +1,21 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+import path from 'node:path';
+import {spawnSync} from 'node:child_process';
+const catalog=JSON.parse(await fs.readFile('src/data/spirits.json','utf8'));
+const manifest=JSON.parse(await fs.readFile('public/game-media/sources.json','utf8'));
+const version=(await fs.readFile(path.join(process.env.USERPROFILE,'.codex/skills/impeccable/scripts/VERSION'),'utf8')).trim();
+const executable=path.join(process.env.USERPROFILE,`.impeccable/bin/${version}/impeccable.exe`);
+await fs.mkdir('public/game-media/spirit',{recursive:true});
+let next=0;const results=[];
+await Promise.all(Array.from({length:6},async()=>{while(next<catalog.items.length){
+ const row=catalog.items[next++];const url=`https://cbg-yys.res.netease.com/game_res/${row.image}`;const relative=`game-media/spirit/${row.id}.png`;
+ const response=await fetch(url,{signal:AbortSignal.timeout(20000)});if(!response.ok)throw Error(`${url}: HTTP ${response.status}`);
+ const bytes=Buffer.from(await response.arrayBuffer());if(!bytes.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])))throw Error('Invalid PNG');
+ await fs.writeFile(`public/${relative}`,bytes);
+ const embedded=spawnSync(executable,['embed-prompt',`public/${relative}`,'--prompt',`Sourced game asset. Origin: ${url}. Independently obtained from NetEase public game resource CDN; no reference-app asset was imported.`],{windowsHide:true,encoding:'utf8'});
+ if(embedded.status!==0)throw Error(embedded.stderr||embedded.stdout);
+ results.push({id:row.id,kind:'spirit',url,path:relative,bytes:bytes.length,sourceSha256:crypto.createHash('sha256').update(bytes).digest('hex')});
+}}));
+manifest.images=[...manifest.images.filter(item=>item.kind!=='spirit'),...results].sort((a,b)=>a.path.localeCompare(b.path));
+manifest.checkedAt=new Date().toISOString();await fs.writeFile('public/game-media/sources.json',JSON.stringify(manifest,null,2));console.log(`Verified and attributed ${results.length} spirit/mark PNGs.`);

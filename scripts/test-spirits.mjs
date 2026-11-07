@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {build} from 'esbuild';
+const built=await build({entryPoints:['src/spirits.ts'],bundle:true,platform:'node',format:'esm',write:false});
+const {spiritInventory,markCounts,markOwner,spiritFacts,markFacts}=await import('data:text/javascript;base64,'+Buffer.from(built.outputFiles[0].text).toString('base64'));
+assert.deepEqual(spiritInventory(null),{available:false,records:[],invalid:0});
+assert.equal(spiritInventory({extras:{capture:{hunling_logic:{}}}}).available,false);
+assert.deepEqual(spiritInventory({extras:{capture:{hunling_logic:{souls:{}}}}}),{available:true,records:[],invalid:0});
+const parsed=spiritInventory({extras:{capture:{hunling_logic:{souls:{a:{id:100,lv:0,star:6,marks:[5,5,8],lock:false},b:{id:999,marks:[null]},bad:{id:'100'}},yys_hunling:{10:'a',12:'a',999:'b'}}}}});
+assert.equal(parsed.records.length,2);assert.equal(parsed.invalid,1);assert.equal(parsed.records[0].level,0);assert.equal(parsed.records[0].locked,false);assert.equal(parsed.records[0].liked,null);assert.deepEqual(parsed.records[0].equipped,['晴明','八百比丘尼']);
+assert.deepEqual(markCounts(parsed.records[0]),[['5',2],['8',1]]);assert.equal(parsed.records[1].marks,null);assert.equal(parsed.records[1].level,null);assert.deepEqual(parsed.records[1].equipped,['阴阳师 #999']);
+assert.equal(markOwner('25').name,'八百比丘尼');assert.equal(markOwner('0'),undefined);assert.equal(markOwner('49'),undefined);assert.equal(markOwner('8.5'),undefined);assert.equal(spiritFacts.length,8);assert.equal(markFacts.length,48);
+console.log('PASS: unknown versus empty, instance integrity, repeated marks, unknown fields, independent official facts and onmyoji mapping.');

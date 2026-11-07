@@ -1,0 +1,52 @@
+.activity-launchers { position: fixed; bottom: 16px; left: 24px; z-index: 25; display: flex; gap: 8px; }
+.activity-launchers button { min-height: 42px; padding: 8px 12px; color: var(--color-primary); background: var(--color-surface); border-color: var(--color-line); }
+.activity-launchers button[aria-expanded="true"] { background: var(--color-surface-alt); border-color: var(--color-primary); }
+.activity-launchers b { font-size: 12px; min-width: 18px; text-align: center; color: var(--color-ink); }
+.app-shell .sidebar-bottom { padding-bottom: 70px; }
+.activity-panel { position: fixed; left: 16px; bottom: 76px; z-index: 40; width: 470px; max-width: calc(100vw - 32px); max-height: min(740px, calc(100dvh - 100px)); display: flex; flex-direction: column; color: var(--color-ink); background: var(--color-surface); border: 1px solid var(--color-line); border-radius: var(--radius-md); overflow: hidden; }
+.activity-panel:focus { outline: none; }
+.activity-panel > header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 20px 8px; flex-shrink: 0; }
+.activity-panel h2 { font-size: 16px; margin: 0; }
+.activity-panel h3 { display: flex; align-items: center; gap: 6px; font-size: 14px; margin: 0; min-width: 0; }
+.activity-panel p { margin: 0 0 8px; overflow-wrap: anywhere; }
+.activity-intro { color: var(--color-muted); font-size: 12px; padding: 0 20px 12px; border-bottom: 1px solid var(--color-line); flex-shrink: 0; }
+.activity-list { overflow: auto; overscroll-behavior: contain; min-height: 0; }
+.activity-job, .activity-notice { padding: 16px 20px; border-bottom: 1px solid var(--color-line); font-size: 13px; }
+.activity-job:last-child, .activity-notice:last-child { border-bottom: 0; }
+.activity-row { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+.activity-status { font-size: 12px; color: var(--color-primary); white-space: nowrap; }
+.activity-meta, .activity-version, .activity-notice time { font-size: 12px; color: var(--color-muted); overflow-wrap: anywhere; }
+.activity-version { margin-bottom: 12px !important; }
+.activity-error { white-space: pre-wrap; }
+.status-failed .activity-status, .status-failed h3 { color: var(--color-ink); }
+.activity-actions { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 12px; }
+.activity-actions button, .activity-toolbar button, .activity-notice button { min-height: 36px; font-size: 12px; padding: 7px 10px; }
+.activity-empty { min-height: 200px; padding: 28px 22px; color: var(--color-muted); display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.activity-empty h3 { color: var(--color-ink); }
+.activity-empty p { max-width: 34ch; }
+.activity-filters { display: flex; align-items: center; gap: 20px; padding: 4px 20px 12px; flex-shrink: 0; }
+.activity-filters > label:first-child { display: flex; align-items: center; gap: 8px; font-size: 12px; }
+.activity-filters select { min-height: 36px; font-size: 13px; }
+.activity-toolbar { display: flex; gap: 8px; flex-wrap: wrap; padding: 0 20px 12px; border-bottom: 1px solid var(--color-line); flex-shrink: 0; }
+.activity-notice p { font-size: 14px; }
+.activity-notice.is-read .activity-status { color: var(--color-muted); }
+.activity-notice .activity-row:last-child { margin: 0; }
+.activity-sync { padding: 12px 20px; color: var(--color-ink); background: var(--color-surface-alt); font-size: 12px; flex-shrink: 0; }
+.activity-saving, .activity-loading { padding: 8px 20px; font-size: 12px; color: var(--color-muted); flex-shrink: 0; }
+@media (min-width: 701px) and (max-width: 960px) {
+  .activity-launchers { left: 14px; flex-direction: column; }
+  .activity-launchers button { padding: 10px; }
+  .activity-launchers button > span { display: none; }
+  .app-shell .sidebar-bottom { padding-bottom: 118px; }
+  .activity-panel { bottom: 126px; max-height: calc(100dvh - 146px); }
+}
+@media (max-width: 700px) {
+  .activity-launchers { left: auto; right: 14px; bottom: 14px; gap: 6px; }
+  .activity-launchers button { padding: 8px 10px; }
+  .activity-panel { left: 12px; bottom: 70px; width: calc(100vw - 24px); max-width: none; max-height: calc(100dvh - 90px); }
+  .activity-panel > header, .activity-job, .activity-notice { padding-inline: 16px; }
+  .activity-intro, .activity-filters, .activity-toolbar, .activity-sync { padding-inline: 16px; }
+  .workspace-footer { padding-bottom: 78px; }
+  .toast[role] { bottom: 72px; }
+  .app-shell .sidebar-bottom { padding-bottom: 16px; }
+}

@@ -1,0 +1,12 @@
+import { useEffect, useState } from 'react';
+import { useApp } from '../context';
+interface Api { enabled: boolean; url?: string; token?: string }
+export default function OpenApiSettings() {
+  const { busy: pending, run, notify , history } = useApp(); const busy = pending || !!history; const [api, setApi] = useState<Api | null>(null); const [visible, setVisible] = useState(false);
+  useEffect(() => { let active = true; void run<Api>('open_api_status').then(next => { if (active && next) setApi(next); }); return () => { active = false; }; }, [run]);
+  return <section className="sheet padded"><div className="section-title"><h2>本机只读开放 API</h2><button disabled={busy || !api} onClick={async () => { const next = await run<Api>('configure_open_api', { enabled: !api?.enabled }); if (next) { setApi(next); setVisible(false); } }}>{api?.enabled ? '关闭本机 API' : '开启本机 API'}</button></div>
+    <p className="muted">{api === null ? '正在读取状态…' : api.enabled ? '已开启，仅接受本机连接。' : '当前关闭。'}供自己的脚本读取已保存的角色档案；不会通过接口操作游戏。重启应用后使用新端口和新凭证。</p>
+    {api?.enabled && <><label className="field">API 地址<input readOnly value={api.url ?? ''} /></label><label className="field">API 访问凭证<input aria-label="API 访问凭证" readOnly autoComplete="off" type={visible ? 'text' : 'password'} value={api.token ?? ''} /></label><div className="actions"><button onClick={() => setVisible(!visible)}>{visible ? '隐藏凭证' : '显示凭证'}</button><button onClick={async () => { try { await navigator.clipboard.writeText(`curl.exe -H "Authorization: Bearer ${api.token}" "${api.url}/v1/active/summary"`); notify('调用示例已复制'); } catch (e) { notify(String(e), true); } }}>复制调用示例</button></div><p className="fineprint">凭证可读取本机游戏档案，仅交给可信脚本。接口只返回已保存的数据；先在应用内读取或刷新游戏，再调用接口。</p></>}
+    <details><summary>接口说明</summary><p>使用 GET 请求，并携带 Authorization: Bearer 访问凭证。返回 JSON；无凭证返回 401，写操作返回 405。列表支持 offset 和 limit，单页最多 1,000 条。</p><div className="table-scroll"><table><thead><tr><th>路径</th><th>内容</th></tr></thead><tbody>{[['/v1/status', '应用版本与只读状态'], ['/v1/profiles', '档案列表'], ['/v1/active/summary', '当前档案摘要'], ['/v1/active', '当前完整档案'], ['/v1/active/souls', '御魂'], ['/v1/active/heroes', '式神'], ['/v1/active/shards', '碎片'], ['/v1/active/resources', '资产'], ['/v1/active/tasks', '本地待办'], ['/v1/active/guild', '游戏寮成员缓存'], ['/v1/active/realm', '结界与寄养缓存']].map(([path, description]) => <tr key={path}><td className="mono">{path}</td><td>{description}</td></tr>)}</tbody></table></div><p className="fineprint">将 /v1/active 替换为 /v1/profiles/档案ID 可读取指定档案。端口和凭证由本应用独立生成，使用本项目格式。</p></details>
+  </section>;
+}
