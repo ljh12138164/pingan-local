@@ -21,7 +21,7 @@ export function radarGroups(souls: Soul[], view: RadarView, rule: Rule | undefin
       if (value !== null) { sum += value; scored++; }
     }
     return { name, count: items.length, full: items.filter(s => s.level === 15).length,
-      speed: items.length ? Math.max(...items.map(s => (s.sub.speed ?? 0) + (s.main === 'speed' ? s.value : 0))) : null,
+      speed: items.length ? items.reduce((best, s) => Math.max(best, (s.sub.speed ?? 0) + (s.innate?.speed ?? 0) + (s.main === 'speed' ? s.value : 0)), -Infinity) : null,
       average: items.length && scored === items.length ? sum / items.length : null,
       scored, unknown: items.length - scored };
   });

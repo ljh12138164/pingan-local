@@ -1,0 +1,16 @@
+.main-attribute-filters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-block: 16px; }
+.main-attribute-filters fieldset { display: flex; flex-wrap: wrap; align-content: start; align-items: center; gap: 8px 16px; min-width: 0; margin: 0; padding: 16px; border: 1px solid var(--color-line); border-radius: var(--radius-sm); }
+.main-attribute-filters legend { padding-inline: 4px; color: var(--color-muted); font-size: 12px; }
+.main-attribute-filters .check { margin: 0; font-size: 12px; min-height: 32px; }
+.main-attribute-filters button[aria-pressed="true"] { font-weight: 700; text-decoration: underline; }
+.speed-asset-cards { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; margin-block: 24px 16px; }
+.speed-asset-cards button { display: flex; flex-direction: column; align-items: start; text-align: left; padding: 16px; white-space: normal; }
+.speed-asset-cards button[aria-pressed="true"] { border-color: var(--color-primary); background: var(--color-surface-alt, var(--color-surface)); }
+.speed-asset-cards strong { color: var(--color-primary); font-size: clamp(24px, 3vw, 36px); line-height: 1.4; font-variant-numeric: tabular-nums; }
+.speed-asset-cards small { font-size: 11px; }
+.speed-assets .section-title h2 { margin-bottom: 4px; }
+.speed-asset-pagination { padding-top: 16px; }
+.speed-asset-detail { border-top: 1px solid var(--color-line); margin-top: 16px; }
+.speed-assets td:first-child { overflow-wrap: anywhere; }
+@media(max-width: 1100px) { .main-attribute-filters { grid-template-columns: 1fr; gap: 8px; } .speed-asset-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media(max-width: 700px) { .speed-asset-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } .speed-assets .section-title { flex-wrap: wrap; } .speed-assets table { min-width: 540px; } }
